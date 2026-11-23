@@ -29,55 +29,45 @@
 <p class="meta">Last updated: [publication date] · <a href="../fr/confidentialite.html">Version française</a> (reference text)</p>
 
 <h2>In short</h2>
-<p>Civipass works without an account, without ads and without analytics tools. Your answers and your progress are stored on your phone; if your phone's backups are turned on, they may be included in them. The only data the app sends directly to Civipass or its providers concerns the purchase of the full version, and only from the moment you open the purchase screen or tap "Restore purchase": it is used to offer you that purchase, to verify it and to restore it.</p>
+<p>Civipass works without an account, without ads and without analytics tools. Your answers and your progress are stored on your phone; if your phone's backups are turned on, they may be included in them. The app sends no data to Civipass or to any provider: the full version is bought directly from the App Store or Google Play, from your phone. We only receive those stores' sales reports and the messages you write to us.</p>
 
 <h2>Who is responsible for your data</h2>
 <p>The controller is Víctor López Rodríguez, an independent developer based in Madrid (Spain). For any question about your data: <a href="mailto:civipassapp@gmail.com">civipassapp@gmail.com</a>.</p>
 
 <h2>Data stored locally</h2>
-<p>The app stores the following locally, on your device:</p>
+<p>The app stores locally, on your device:</p>
 <ul>
 <li>your answers to the questions and your progress by topic;</li>
 <li>the results of your mock exams;</li>
-<li>your settings: the procedure you are preparing for (multi-year residence permit, residence card or naturalisation) and the language of the explanations;</li>
-<li>the fact that you bought the full version, so that the app also works offline;</li>
-<li>if you open the purchase screen or tap "Restore purchase", the random identifier used for your purchase (see "Buying the full version"): it is only created then, and you can then see and copy it in the app's Settings, under "Support identifier".</li>
+<li>your settings: the procedure you are preparing for (multi-year residence permit, resident card or naturalisation) and the language of the explanations;</li>
+<li>if you bought the full version, the confirmation of that purchase, so the app also works offline;</li>
+<li>if a purchase is awaiting confirmation (a parent's approval or a payment in progress, for instance), the date it started waiting, for seven days at most.</li>
 </ul>
-<p>This information is stored on your phone. Apart from the random identifier, which RevenueCat receives if you open the purchase screen (see below), the app does not send it directly to Civipass or to RevenueCat, and we have no access to it; some of it may, however, be included in backups managed by Apple or Google (see below). The procedure you are preparing for may say something about your administrative status: that is why it is never sent to us. This information is deleted from your phone when you uninstall the app or clear its data in your phone's settings.</p>
-<p>If you have turned on your phone's backups (iCloud on iPhone, Google backup on Android), your answers, results and settings may be included in them, like the data of your other apps. Those backups are managed by Apple or Google and linked to your account; we have no access to them. Uninstalling Civipass does not delete backups already made: you can manage them from your Apple or Google account.</p>
-<p>The app stores its random identifier, the local purchase confirmation and the fact that a purchase is awaiting confirmation in a file excluded from backups. On iPhone, the RevenueCat module built into the app also keeps a copy of this identifier and the purchase status in the app's internal settings, which may be included in iCloud or computer backups. When the app starts without its own identifier, including after a backup has been restored, it deletes the data stored by RevenueCat before connecting to that service and does not use it again. On a new device, after reinstalling or restoring a backup, the app creates a new identifier. You can recover the full version using the "Restore purchase" button.</p>
+<p>This information stays on your phone: the app does not send it to Civipass or to anyone, and we have no access to it. The procedure you are preparing for may say something about your immigration situation: one more reason why it never leaves your phone. It is erased when you uninstall the app or clear its data in your phone's settings.</p>
+<p>If you have turned on your phone's backups (iCloud on iPhone, Google backup on Android), your answers, results and settings may be included in them, like the data of your other apps. Those backups are managed by Apple or Google and tied to your account; we have no access to them. Uninstalling Civipass does not erase backups already made: you can manage them from your Apple or Google account. The purchase confirmation and the pending-purchase date are kept in a file left out of backups: on a new device, you get the full version back with the "Restore purchase" button.</p>
 
 <h2>Buying the full version</h2>
 <p>Payment is handled by Apple (App Store) or Google (Google Play), depending on your phone. They are responsible for it under their own privacy policies (<a href="https://www.apple.com/legal/privacy/">Apple</a>, <a href="https://policies.google.com/privacy">Google</a>). We never receive your name, your email address or your payment details.</p>
-<p>To verify the purchase, unlock the full version and restore it on another device, the app uses RevenueCat (RevenueCat, Inc., United States), a technical provider for in-app purchases, acting on our behalf as a processor.</p>
-<p>The app only connects to RevenueCat in these cases:</p>
+<p>To show the price, make the purchase, verify it and restore it, the app uses no provider: it talks directly to the App Store or Google Play purchase service on your phone, which tells it whether your Apple or Google account owns the full version. Those exchanges take place between your phone and Apple or Google, under their terms; nothing from these checks reaches us. The app only calls on that service in these cases:</p>
 <ul>
 <li>when you open the full version's purchase screen: to show the price and check whether the purchase has already been made;</li>
 <li>when you buy;</li>
 <li>when you tap "Restore purchase";</li>
-<li>if you bought, each time the app opens, to verify the purchase;</li>
-<li>if a purchase is awaiting confirmation (a parent's approval or a payment in progress, for instance), each time the app opens for seven days at most. If it is confirmed later, it will appear when you open the purchase screen again or tap "Restore purchase".</li>
+<li>if you bought, each time the app opens, to check that the purchase is still valid (that it has not been refunded, for instance);</li>
+<li>if a purchase is awaiting confirmation, each time the app opens for seven days at most. If it is confirmed later, it will appear when you open the purchase screen again or tap "Restore purchase".</li>
 </ul>
-<p>If you only use the free part without opening that screen, RevenueCat receives nothing. When the app connects, RevenueCat receives:</p>
-<ul>
-<li>a random identifier created by the app, which does not directly contain your name or contact details;</li>
-<li>if you buy, the purchase receipt sent by the store (product, price, currency, date, store country and transaction number) and the data derived from it: purchase status and access unlocked;</li>
-<li>the technical data of the connection: IP address, device model, operating system and its version, app version, device language and store country.</li>
-</ul>
-<p>On iPhone and iPad, iOS gives the apps from the same developer a shared identifier (the "identifier for vendor", IDFV), which is different for other developers' apps. Civipass does not read it: the app blocks it at launch, so the RevenueCat module cannot send it.</p>
-<p>This processing is necessary to perform the purchase contract or, when you open the purchase screen without buying, to take the steps you asked for before entering into it: showing you the offer and handling the purchase attempt (Article 6(1)(b) GDPR).</p>
-<p>Apple and Google also send us sales reports (order number, product, price, country and date). We keep them to meet our accounting and tax obligations (Article 6(1)(c) GDPR).</p>
+<p>If you only use the free part without opening the purchase screen, the app does not call on that service.</p>
+<p>On iPhone and iPad, iOS gives the apps from the same developer a shared identifier (the "identifier for vendor", IDFV), which is different for other developers' apps. Civipass does not read it: the app blocks it at launch.</p>
+<p>Apple and Google send us sales reports (order number, product, price, country and date). We keep them to meet our accounting and tax obligations (Article 6(1)(c) GDPR).</p>
 
 <h2>Transfers outside the European Union</h2>
-<p>RevenueCat processes the data in the United States. This transfer is covered by the European Commission's standard contractual clauses (Decision 2021/914), included in <a href="https://www.revenuecat.com/dpa">RevenueCat's data processing addendum</a>. Apple and Google may also process your data outside the Union, under their own policies, including Google for the mailbox where we receive your requests, under the EU-U.S. Data Privacy Framework (see "Handling your requests").</p>
+<p>Civipass does not transfer your data outside the European Union. Apple and Google may process your data outside the Union, under their own policies, including Google for the mailbox where we receive your requests, under the EU-U.S. Data Privacy Framework (see "Handling your requests").</p>
 
 <h2>How long we keep your data</h2>
 <ul>
-<li><strong>On your phone:</strong> until you uninstall the app or clear its data.</li>
-<li><strong>At RevenueCat, if you bought:</strong> for as long as it is needed to verify your purchase and let you restore it, in principle for as long as Civipass is offered, because the purchase is permanent; we review this need once a year. You can ask for it to be erased at any time (see "Your rights"). When our contract with RevenueCat ends, we will ask it, within 30 days of that end, to return or delete this data, as its data processing addendum provides; that deletion remains subject to its usual backup and archiving practices.</li>
-<li><strong>At RevenueCat, if you opened the purchase screen without buying:</strong> the random identifier and the technical data of the connection are deleted automatically no later than 30 days after the app last connected to RevenueCat. This short period leaves time to handle a pending purchase or a payment problem.</li>
-<li><strong>Requests about your data:</strong> while we handle them, then five years from their closing (see "Handling your requests").</li>
+<li><strong>On your phone:</strong> until you uninstall the app or clear its data. The pending-purchase date is erased after seven days, or as soon as the purchase is confirmed.</li>
 <li><strong>Sales reports:</strong> we keep the supporting records needed for our accounting and tax obligations for the applicable legal period: six years from the last entry made in the accounting books (Article 30 of the Spanish Commercial Code).</li>
+<li><strong>Requests about your data:</strong> while we handle them, then five years from their closing (see "Handling your requests").</li>
 </ul>
 
 <h2>What we do not do</h2>
@@ -92,25 +82,20 @@
 <p>Civipass is meant for adults preparing for the civic exam.</p>
 
 <h2>Your rights</h2>
-<p>You can ask to access, correct or erase your data, to restrict its processing or to receive it in a portable format, and, in the cases provided for by the GDPR (Article 21), you can object to its processing. Write to <a href="mailto:civipassapp@gmail.com">civipassapp@gmail.com</a>.</p>
-<p>We do not know who you are. For us to find the data that concerns you, give us one of these:</p>
-<ul>
-<li>the app's support identifier: in Civipass, open Settings and tap "Support identifier" to copy it (it only appears there if you have opened the purchase screen or restored a purchase; otherwise we hold no data about you at RevenueCat);</li>
-<li>if you bought the full version, the order number shown on the Apple or Google receipt.</li>
-</ul>
-<p>You can also give us any other information that identifies it. Without any of these, we will generally not be able to find data about you (Article 11 GDPR). They are used to find your data; if we have reasonable doubts that the request comes from you, we may ask for the additional information needed to resolve them, and only that (Article 12(6) GDPR).</p>
-<p>We reply within one month of receiving your request. If the request is complex or we receive many, this period can be extended by up to two months; we will tell you so before the first month ends, with the reason and the new deadline (Article 12(3) GDPR).</p>
-<p><strong>Erasure.</strong> You can ask for erasure at any time. Before writing to us, copy the support identifier: it disappears when you uninstall the app. Then, so that no new record is created while we handle your request, we recommend uninstalling Civipass and not using it again until we have confirmed the erasure: if you bought, it connects to RevenueCat each time it opens; if a purchase is pending, it does so each time it opens for seven days at most. Uninstalling deletes the data stored on your phone, subject to backups already made, but not the data held at RevenueCat: we are the ones who delete it. A backup restored later may contain a copy of the identifier kept by the RevenueCat module. However, the app does not use it again and deletes the corresponding data before connecting to RevenueCat. We delete from RevenueCat that identifier and all the data linked to it, purchase history and receipt included, and confirm it to you. Erasure does not affect the purchase itself, which Apple or Google keep: if you restore it later, a new record is created. Sales reports are kept for the period required by law.</p>
-<p>You can also lodge a complaint with a data protection authority: the <a href="https://www.cnil.fr">CNIL</a> in France, or the <a href="https://www.aepd.es">AEPD</a> in Spain, where the controller is established.</p>
+<p>You can ask for access to your data, its rectification, its erasure, the restriction of its processing or its portability, and, in the cases set out in the GDPR (Article 21), object to its processing. Write to <a href="mailto:civipassapp@gmail.com">civipassapp@gmail.com</a>.</p>
+<p>We do not know who you are, and we keep nothing of what you do in the app. The only data about you that we may hold are a line in a sales report, if you bought, and the messages you have written to us. To find the former, give us the order number shown on the Apple or Google receipt; without it, we will usually be unable to link it to you (Article 11 GDPR). If we have reasonable doubts that the request comes from you, we may ask for the additional information needed to clear them, and only that (Article 12(6) GDPR).</p>
+<p>We reply within one month of receiving your request. If the request is complex or we receive many, this period can be extended by up to two months; we will then tell you so before the first month ends, with the reason and the new deadline (Article 12(3) GDPR).</p>
+<p><strong>Erasure.</strong> The data on your phone is erased when you uninstall the app, except for backups already made, which you manage from your Apple or Google account. Sales reports are kept for as long as the law requires. The purchase itself is recorded by Apple or Google in your account, under their own rules.</p>
+<p>You can also complain to a data protection authority: the <a href="https://www.cnil.fr">CNIL</a> in France, or the <a href="https://www.aepd.es">AEPD</a> in Spain, where the controller is based.</p>
 
 <h2>Handling your requests</h2>
-<p>When you exercise your rights, we keep your message and our reply (and therefore your email address), the right exercised, the last characters of what allowed us to find your data, the dates and the actions taken. We use them to receive your request, answer it and follow it up, which the GDPR requires of us (Article 6(1)(c), read with Articles 12 to 22 GDPR). After the request is closed, we keep them for five years, in a space with restricted access, only to be able to show that it was handled properly and to defend ourselves against a complaint: this retention is based on our legitimate interest (Article 6(1)(f) GDPR). These five years are not set by the GDPR: they are a prudent period we chose, based on the general limitation period for personal claims in Spain (Article 1964(2) of the Spanish Civil Code) and in France (Article 2224 of the French Civil Code), which does not mean it applies to every claim. We keep only what that purpose needs: if a message contains attachments or information we do not need (an identity document, data about other people), we delete them. Every month, we delete what has reached five years.</p>
+<p>When you exercise your rights, we keep your message and our reply (and therefore your email address), the right exercised, where relevant the last characters of the order number, the dates and the actions taken. We use them to receive your request, answer it and follow it up, which the GDPR requires of us (Article 6(1)(c), read with Articles 12 to 22 GDPR). After the request is closed, we keep them for five years, in a space with restricted access, only to be able to show that it was handled properly and to defend ourselves against a complaint: this retention is based on our legitimate interest (Article 6(1)(f) GDPR). These five years are not set by the GDPR: they are a prudent period we chose, based on the general limitation period for personal claims in Spain (Article 1964(2) of the Spanish Civil Code) and in France (Article 2224 of the French Civil Code), which does not mean it applies to every claim. We keep only what that purpose needs: if a message contains attachments or information we do not need (an identity document, data about other people), we delete them. Every month, we delete what has reached five years.</p>
 <p>We receive and keep these exchanges in a Gmail mailbox. Google Ireland Limited, which provides this service, does not act on our behalf: it processes this data as a separate controller, to provide and secure the mailbox and for the other purposes described in its terms and its <a href="https://policies.google.com/privacy">privacy policy</a>. We entrust these exchanges to it on the basis of our legitimate interest in having a mailbox to receive and answer your requests (Article 6(1)(f) GDPR). Google may transfer them to Google LLC, in the United States, which is certified under the EU-U.S. Data Privacy Framework.</p>
 
 <h2>Security</h2>
-<p>Traffic between the app and RevenueCat is encrypted (HTTPS). The data stored on your phone sits in the space reserved for the app, which other apps cannot access; it is also protected by your phone's encryption and lock, depending on how your phone is set up.</p>
+<p>The data stored on your phone is in the app's own space, which other apps cannot access; it is also protected by your phone's encryption and lock, depending on its settings. Exchanges with the Apple or Google purchase service are handled and secured by them.</p>
 
 <h2>Changes</h2>
-<p>The date of the last update is shown at the top of this page. If a new version of the app changes the data processed, this policy is updated before that version is released.</p>
+<p>The date of the last update is at the top of this page. If a new version of the app changes the data processed, this policy is updated before that version is released.</p>
 </body>
 </html>
