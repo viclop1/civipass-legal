@@ -29,7 +29,7 @@
 <p class="meta">Last updated: [publication date] · <a href="../fr/confidentialite.html">Version française</a> (reference text)</p>
 
 <h2>In short</h2>
-<p>Civipass works without an account, without ads and without analytics tools. Your answers and your progress are stored on your phone; if your phone's backups are turned on, they may be included in them. The only data the app sends directly to Civipass or its providers concerns the purchase of the full version, and only from the moment you open the purchase screen: it is used to offer you that purchase, to verify it and to restore it.</p>
+<p>Civipass works without an account, without ads and without analytics tools. Your answers and your progress are stored on your phone; if your phone's backups are turned on, they may be included in them. The only data the app sends directly to Civipass or its providers concerns the purchase of the full version, and only from the moment you open the purchase screen or tap "Restore purchase": it is used to offer you that purchase, to verify it and to restore it.</p>
 
 <h2>Who is responsible for your data</h2>
 <p>The controller is Víctor López Rodríguez, an independent developer based in Madrid (Spain). For any question about your data: <a href="mailto:civipassapp@gmail.com">civipassapp@gmail.com</a>.</p>
@@ -50,23 +50,31 @@
 <h2>Buying the full version</h2>
 <p>Payment is handled by Apple (App Store) or Google (Google Play), depending on your phone. They are responsible for it under their own privacy policies (<a href="https://www.apple.com/legal/privacy/">Apple</a>, <a href="https://policies.google.com/privacy">Google</a>). We never receive your name, your email address or your payment details.</p>
 <p>To verify the purchase, unlock the full version and restore it on another device, the app uses RevenueCat (RevenueCat, Inc., United States), a technical provider for in-app purchases, acting on our behalf as a processor.</p>
-<p>The app only connects to RevenueCat when it needs to: when you open the full version's purchase screen or tap "Restore purchase"; then, if you bought, each time it opens, to verify the purchase; and, if a purchase is awaiting confirmation (a parent's approval, for instance), each time it opens for seven days at most. If you only use the free part without opening that screen, RevenueCat receives nothing. When the app connects, RevenueCat receives:</p>
+<p>The app only connects to RevenueCat in these cases:</p>
+<ul>
+<li>when you open the full version's purchase screen: to show the price and check whether the purchase has already been made;</li>
+<li>when you buy;</li>
+<li>when you tap "Restore purchase";</li>
+<li>if you bought, each time the app opens, to verify the purchase;</li>
+<li>if a purchase is awaiting confirmation (a parent's approval or a payment in progress, for instance), each time the app opens for seven days at most. If it is confirmed later, it will appear when you open the purchase screen again or tap "Restore purchase".</li>
+</ul>
+<p>If you only use the free part without opening that screen, RevenueCat receives nothing. When the app connects, RevenueCat receives:</p>
 <ul>
 <li>a random identifier created by the app, which does not directly contain your name or contact details;</li>
 <li>if you buy, the purchase receipt sent by the store (product, price, currency, date, store country and transaction number) and the data derived from it: purchase status and access unlocked;</li>
-<li>the technical data of the connection: IP address, device model, operating system and its version, app version, device language and store country;</li>
-<li>on iPhone and iPad, the identifier iOS gives to apps from the same developer on your device (the "identifier for vendor"), which the RevenueCat module adds to each connection.</li>
+<li>the technical data of the connection: IP address, device model, operating system and its version, app version, device language and store country.</li>
 </ul>
+<p>On iPhone and iPad, the RevenueCat module also adds to each connection the identifier iOS gives to apps from the same developer on your device (the "identifier for vendor", IDFV). It cannot be used to follow you across other developers' apps, and the module offers no way to turn this off. We do not use it, and we turn on no RevenueCat feature that uses it (attribution, advertising or sending data on to other services).</p>
 <p>This processing is necessary to perform the purchase contract or, when you open the purchase screen without buying, to take the steps you asked for before entering into it: showing you the offer and handling the purchase attempt (Article 6(1)(b) GDPR).</p>
 <p>Apple and Google also send us sales reports (order number, product, price, country and date). We keep them to meet our accounting and tax obligations (Article 6(1)(c) GDPR).</p>
 
 <h2>Transfers outside the European Union</h2>
-<p>RevenueCat processes the data in the United States. This transfer is covered by the European Commission's standard contractual clauses (Decision 2021/914), included in <a href="https://www.revenuecat.com/dpa">RevenueCat's data processing addendum</a>. Apple and Google may also process your data outside the Union, under their own policies.</p>
+<p>RevenueCat processes the data in the United States. This transfer is covered by the European Commission's standard contractual clauses (Decision 2021/914), included in <a href="https://www.revenuecat.com/dpa">RevenueCat's data processing addendum</a>. Apple and Google may also process your data outside the Union, under their own policies, including Google for the mailbox where we receive your requests (see "Handling your requests").</p>
 
 <h2>How long we keep your data</h2>
 <ul>
 <li><strong>On your phone:</strong> until you uninstall the app or clear its data.</li>
-<li><strong>At RevenueCat, if you bought:</strong> for as long as Civipass is offered, because the purchase is permanent and must be restorable at any time, unless you ask for it to be erased (see "Your rights"). When our contract with RevenueCat ends, we will ask it, within 30 days of that end, to return or delete this data, as its data processing addendum provides; that deletion remains subject to its usual backup and archiving practices.</li>
+<li><strong>At RevenueCat, if you bought:</strong> for as long as it is needed to verify your purchase and let you restore it, in principle for as long as Civipass is offered, because the purchase is permanent; we review this need once a year. You can ask for it to be erased at any time (see "Your rights"). When our contract with RevenueCat ends, we will ask it, within 30 days of that end, to return or delete this data, as its data processing addendum provides; that deletion remains subject to its usual backup and archiving practices.</li>
 <li><strong>At RevenueCat, if you opened the purchase screen without buying:</strong> the random identifier and the technical data of the connection are deleted automatically no later than 30 days after the app last connected to RevenueCat. This short period leaves time to handle a pending purchase or a payment problem.</li>
 <li><strong>Requests about your data:</strong> while we handle them, then five years from their closing (see "Handling your requests").</li>
 <li><strong>Sales reports:</strong> we keep the supporting records needed for our accounting and tax obligations for the applicable legal period: six years from the last entry made in the accounting books (Article 30 of the Spanish Commercial Code).</li>
@@ -96,7 +104,8 @@
 <p>You can also lodge a complaint with a data protection authority: the <a href="https://www.cnil.fr">CNIL</a> in France, or the <a href="https://www.aepd.es">AEPD</a> in Spain, where the controller is established.</p>
 
 <h2>Handling your requests</h2>
-<p>When you exercise your rights, we keep your message and our reply (and therefore your email address), the right exercised, the last characters of what allowed us to find your data, the dates and the actions taken. We use them to receive your request, answer it and follow it up, which the GDPR requires of us (Article 6(1)(c), read with Articles 12 to 22 GDPR). After the request is closed, we keep them for five years, in a space with restricted access, only to be able to show that it was handled properly and to defend ourselves against a complaint: this retention is based on our legitimate interest (Article 6(1)(f) GDPR). The five-year period is a prudent choice: the GDPR does not set one. [mailbox to confirm]</p>
+<p>When you exercise your rights, we keep your message and our reply (and therefore your email address), the right exercised, the last characters of what allowed us to find your data, the dates and the actions taken. We use them to receive your request, answer it and follow it up, which the GDPR requires of us (Article 6(1)(c), read with Articles 12 to 22 GDPR). After the request is closed, we keep them for five years, in a space with restricted access, only to be able to show that it was handled properly and to defend ourselves against a complaint: this retention is based on our legitimate interest (Article 6(1)(f) GDPR). The GDPR sets no period; we chose five years because it is the general limitation period for personal claims in Spain (Article 1964 of the Spanish Civil Code) and in France (Article 2224 of the French Civil Code). We keep only what that purpose needs: if a message contains attachments or information we do not need (an identity document, data about other people), we delete them. Every month, we delete what has reached five years.</p>
+<p>We receive and keep these exchanges in a Gmail mailbox, provided by Google. Google processes the data of this service under its own terms and its <a href="https://policies.google.com/privacy">privacy policy</a>, and may process it outside the European Union.</p>
 
 <h2>Security</h2>
 <p>Traffic between the app and RevenueCat is encrypted (HTTPS). The data stored on your phone sits in the space reserved for the app, which other apps cannot access; it is also protected by your phone's encryption and lock, depending on how your phone is set up.</p>
