@@ -1,6 +1,7 @@
 # civipass-legal
 
-Las páginas públicas de Civipass, servidas con GitHub Pages en
+Las páginas públicas de Benvela (antes Civipass; el repo conserva el nombre
+hasta que se renombre a benvela-legal), servidas con GitHub Pages en
 https://viclop1.github.io/civipass-legal/. La app las abre desde Ajustes
 (`lib/core/config/links.dart` en el repo `civipass`) y las fichas de las
 tiendas enlazan a ellas.
